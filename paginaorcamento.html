@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="paginaorcamento.css">
+</head>
+<body class="pixelify-sans">
+    <header>
+
+        <a href="tentativaflexbox.html" class="chat">Home</a>
+        <nav>
+            <a href="#" class="find-a-game">Login</a>
+            <a href="#" class="quit">Cadastro</a>
+        </nav>
+    </header>
+
+    <h1>Orçamento Nekrxlvdens</h1>
+
+    <form id="orcamentoForm" class="orcamento">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="contato">Email:</label>
+        <input type="email" id="contato" name="contato" required>
+
+        <label for="contato">Telefone:</label>
+        <input type="text" id="tel" name="tel" required>
+
+        <label for="material">Material:</label>
+        <select id="material" name="material" required>
+            <option value="resina">Resina</option>
+            <option value="filamento">Filamento</option>
+            <option value="pintura">Pintura</option>
+            <option value="modelagem">Modelagem</option>
+        </select>
+
+        <label for="referencia">Referência (cole o link da imagem):</label>
+        <textarea id="referencia" name="referencia" rows="4" required></textarea>
+
+        <input type="button" value="Enviar Orçamento" onclick="enviarOrcamento">
+    </form>
+
+</body>
+</html>

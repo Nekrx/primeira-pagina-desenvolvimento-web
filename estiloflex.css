@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pixelify-sans {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    height: auto;
+    background: linear-gradient(rgb(65, 64, 64), rgb(86, 102, 92));
+    color: white;
+}
+
+header {
+    top: 0px;
+    display: flex;
+    flex-flow: row;
+    position: sticky;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    background-color: rgb(75, 80, 53);
+    border-bottom: 3px solid gray;
+}
+
+a {
+    text-decoration: none;
+    justify-content: center;
+    color:white;
+    font-size: 40px;
+}
+
+nav{
+    display: flex;
+    flex-flow: row;
+}
+
+
+.chat {
+    margin-left: 10px;
+    display: flex;
+    flex-flow: row;
+    background-color: black;
+    width: 80px;
+    font-size: 20px;
+    align-items: center;
+
+}
+
+.chat:hover {
+    background-color: lightslategray;
+}
+
+.find-a-game {
+    display: flex;
+    background-color: rgb(71, 148, 71);
+    font-size: 20px;
+    align-items: center;
+    width: 250px;
+}
+
+.find-a-game:hover {
+    background-color: green;
+}
+
+.quit {
+    margin-right: 10px;
+    display: flex;
+    background-color: rgb(67, 77, 110);
+    font-size: 20px;
+    align-items: center;
+    width: 100px;
+}
+
+.quit:hover {
+    background-color: rgb(32, 24, 77);
+}
+
+section{
+  display: grid;                /*já é conteudo novo EHEUHEUHEUHEUHEU*/
+ grid-template-columns: 20% 78%;
+}
+
+.caixadiv {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 36px;
+    justify-content:start;
+    background-color: black;
+    box-shadow: 5px 5px white;
+    font-size: 30px;
+}
+
+.caixadiv > a:hover {
+    color: gray;
+}
+
+.propaganda {
+    display: inline-block;
+    width: 100%;
+    height: 180px;
+    margin-top: 36px;
+    object-fit: cover;
+}
+
+
+.infodiv {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: start;
+    align-items: center;
+    box-shadow: 5px 5px white;
+    margin: 40px;
+    padding: 50px;
+    font-size: 30px;
+    background-color: black;
+    
+}
+
+.reajuste {
+    height: 500px;
+    margin: 20px;
+    border: 2px solid gray;
+}

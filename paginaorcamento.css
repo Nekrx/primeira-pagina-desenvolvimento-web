@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pixelify-sans {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(rgb(65, 64, 64), rgb(86, 102, 92));
+    color: white;
+}
+
+header {
+    top: 0px;
+    display: flex;
+    flex-flow: row;
+    position: sticky;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    background-color: rgb(75, 80, 53);
+    border-bottom: 3px solid gray;
+}
+
+a {
+    text-decoration: none;
+    justify-content: center;
+    color:white;
+    font-size: 40px;
+}
+
+nav{
+    display: flex;
+    flex-flow: row;
+}
+
+
+.chat {
+    margin-left: 10px;
+    display: flex;
+    flex-flow: row;
+    background-color: black;
+    width: 80px;
+    font-size: 20px;
+    align-items: center;
+
+}
+
+.chat:hover {
+    background-color: lightslategray;
+}
+
+.find-a-game {
+    display: flex;
+    background-color: rgb(71, 148, 71);
+    font-size: 20px;
+    align-items: center;
+    width: 250px;
+}
+
+.find-a-game:hover {
+    background-color: green;
+}
+
+.quit {
+    margin-right: 10px;
+    display: flex;
+    background-color: rgb(67, 77, 110);
+    font-size: 20px;
+    align-items: center;
+    width: 100px;
+}
+
+.quit:hover {
+    background-color: rgb(32, 24, 77);
+}
+form {
+    display: flex;
+    flex-flow: column;
+    height: 70%;
+    gap: 30px;
+    width: 50%;
+    margin: 20px auto;
+    max-width: 1000px;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.orcamento {
+    background: black;
+    box-shadow: 5px 5px white;
+    border: none;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
